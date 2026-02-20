@@ -13,7 +13,7 @@ st.set_page_config(page_title="Fate Scent", page_icon="✨", layout="wide")
 
 DATA_PATH = "processed_perfumes_fixed.csv"
 LOG_PATH = "recommendation_logs.csv"
-FEEDBACK_FORM_URL = "https://forms.gle/여기에_구글폼_링크"
+FEEDBACK_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScGygiiOM-tp9ujKPmwzgMRozD3gxOmLwukyPo4V1-tS1HGLg/viewform"
 
 ELEMENTS = ["Wood", "Fire", "Earth", "Metal", "Water"]
 
@@ -582,3 +582,4 @@ if run_btn:
         st.subheader("📝 1분 피드백(설문)")
         st.write("추천이 어땠는지 알려주면, 다음 버전에서 추천 품질을 더 올릴 수 있어요.")
         st.link_button("👉 설문 참여하기", FEEDBACK_FORM_URL, type="primary")
+
